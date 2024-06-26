@@ -339,3 +339,38 @@ main {
  .item-4{
   width: 162px;
  }
+
+ /*  */
+
+.block-3{
+  margin-top: 40px;
+}
+
+.block-3__title{
+  text-align: center;
+}
+
+.block-3__wrap{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #D4FF5A;
+}
+
+.block-3__item{
+  width: max(20%, 198px);
+  /* height: max(20vw, 198px); */
+  background-color: #497957;
+  border-radius: 35px;
+  border: 2px solid #00FF4A;
+  transition: all 0.4s;
+}
+
+.block-3__item:hover{
+  box-shadow: 2px 5px 10px #497957;
+}
