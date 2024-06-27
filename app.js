@@ -1,7 +1,9 @@
 const burger = document.querySelector('.burger');
+const burgerWrap = document.querySelector('.burger__wrap');
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
+  burgerWrap.classList.toggle('active');
   console.log('33');
 });
 
