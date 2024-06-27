@@ -450,8 +450,8 @@ main {
 
  .block-3__item{
   flex: 1;
-  max-width: clamp(54px, 18vw, 198px);
-  max-height: clamp(54px, 16vw, 198px);
+  max-width: clamp(54px, 20%, 198px);
+  max-height: clamp(54px, 15vw, 198px);
   border-radius: 15px;
  }
 }  
